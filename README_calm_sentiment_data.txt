@@ -6,7 +6,7 @@ and GSPC (the S&P 500 index). The fields consist of:
  * date : the date of the observed Twitter sentiment data. Presumably
    the data are observable by 23:59:59 of the given date, though the
    the time zone is unclear.
- * tone : the 
+ * tone : the tone sentiment series.
  * calm : the calm sentiment series.
  * tone_Z10 : the normalized tone variable, using k=10. This is essentially a
    centered Z-score of tone over 21 observations.
